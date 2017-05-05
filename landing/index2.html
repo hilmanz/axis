@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXIS BAROKAH - GSM YANG BAIK</title>
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/axisLanding.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-animate-css-rotate-scale.js"></script>
+<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+<script type="text/javascript" src="js/jqueryResize.js"></script>
+<script type="text/javascript" src="js/animation.js"></script>
+
+<script language="javascript" type="text/javascript" src="js/jquery.easing.js"></script>
+<script language="javascript" type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+ $(document).ready( function(){	
+		var buttons = { previous:$('#lofslidecontent45 .lof-previous') ,
+						next:$('#lofslidecontent45 .lof-next') };
+						
+		$obj = $('#lofslidecontent45').lofJSidernews( { interval : 2000,
+												direction		: 'opacitys',	
+											 	easing			: 'easeInOutExpo',
+												duration		: 1200,
+												auto		 	: true,
+												maxItemDisplay  : 3,
+												navPosition     : 'horizontal', // horizontal
+												navigatorHeight : 32,
+												navigatorWidth  : 80,
+												mainWidth:860,
+												buttons			: buttons} );	
+	});
+</script>
+</head>
+
+<body>
+<div id="body">
+    <div id="container2">
+    	<div id="header">
+            <a href="index.php" class="logoAxis">&nbsp;</a>
+          <h1>Cuma scroll kanan-kiri,<br />dapet paket Barokah!</h1>
+        </div>
+            <div id="slides">
+                    <div id="lofslidecontent45" class="lof-slidecontent" style="width:860px; height:330px;">
+                    <div class="preload"><div></div></div>
+                     <!-- MAIN CONTENT --> 
+                      <div class="lof-main-outer" style="width:860px; height:330px;">
+                        <ul class="lof-main-wapper"> 
+                            <li>
+                              <img src="imgLanding/hadiah1.png" >   
+                            </li> 
+                            <li>
+                    
+                              <img src="imgLanding/hadiah2.png"  >         
+                            </li> 
+                             <li>
+                              <img src="imgLanding/hadiah3.png" >     
+                            </li>  
+                          </ul>  	
+                      </div>
+                    </div>
+            </div>
+        <div id="bottom">
+            <div class="textMiddle">
+            	<p>Ngabuburit bareng emang paling seru.<br />
+                Buruan gabung ke meja AXIS Barokah & dapetin hadiah yang tersebar di situ.<br />
+                Daftar aja pake akun Facebook kamu Beb!</p>
+            </div>
+            <a id="fbCon"></a>
+            <div class="textFoot">
+            	<p>Kalo udah kebagian Barokah, masuk ke Ruang Pahala yuk Beb &raquo;</p>
+            </div>
+            <a id="logoBerkah">&nbsp;</a>
+        </div>
+    </div>
+    <div id="footer">
+    	<div class="footer">
+            <a class="facebook" href="https://www.facebook.com/AXISgsm" target="_blank">&nbsp;</a>
+            <a class="twitter" href="https://twitter.com/AXISgsm" target="_blank">&nbsp;</a>
+            <span class="copy">&copy; 2012 AXIS. All rights reserved. <a href="faq.html" target="_blank">FAQ</a> | <a href="tnc.html" target="_blank">Terms and Conditions</a></span>
+        </div>
+    </div><!-- end #footer -->
+</div><!-- end #body -->
+</body>
+</html>

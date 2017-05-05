@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class=" js cssanimations csstransitions" xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXIS - GSM YANG BAIK</title>
+<link rel="stylesheet" type="text/css" href="index.php_files/jquery-ui-1.css">
+<link rel="stylesheet" type="text/css" href="index.php_files/axis.css">
+<link rel="stylesheet" type="text/css" href="index.php_files/skin.css">
+<link rel="stylesheet" type="text/css" href="index.php_files/jscrollpane.css">
+<link rel="stylesheet" type="text/css" href="index.php_files/scrollbar.css">
+<link rel="stylesheet" href="index.php_files/mediaelementplayer.css">
+<noscript>
+    <link rel="stylesheet" type="text/css" href="css/nojs.css" />
+</noscript>
+<script type="text/javascript" src="index.php_files/jquery.js"></script>
+<script type="text/javascript" src="index.php_files/jquery-ui-1.js"></script>
+<script type="text/javascript" src="index.php_files/jquery_003.js"></script>
+<script type="text/javascript" src="index.php_files/jquery_005.js"></script>
+<script type="text/javascript" src="index.php_files/scroll-startstop.js"></script>
+<script type="text/javascript" src="index.php_files/detectBrowser.js"></script>
+<script type="text/javascript" src="index.php_files/jquery_004.js"></script>
+<script type="text/javascript" src="index.php_files/modernizr.js"></script>
+<script type="text/javascript" src="index.php_files/jquery_002.js"></script>
+<script type="text/javascript" src="index.php_files/customform.js"></script><style type="text/css">input.styled { display: none; } select.styled { position: relative; width: 190px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } .disabled { opacity: 0.5; filter: alpha(opacity=50); }</style>
+<script type="text/javascript" src="index.php_files/jRating.js"></script>
+<script src="index.php_files/mediaelement-and-player.js"></script>
+<script type="text/javascript" src="index.php_files/axis.js"></script>
+</head>
+
+<body class="Firefox">
+
+<div class="popup" id="login">
+    <div class="ui-overlay">
+        <div class="ui-widget-overlay"></div>
+    </div><!-- end .ui-overlay -->
+    <div class="popupContent" id="loginForm">
+        <div class="entry">
+        	<form id="loginAxis">
+            	<h3>LOGIN WITH AXIS</h3>
+                <div class="row">
+                	<label>Nomer Axis</label>
+                    <input type="text">
+                </div>
+                <div class="row">
+                	<label>Password</label>
+                    <input type="password">
+                </div>
+                <div class="rowCheck">
+                	<input type="checkbox">
+                    <label>remember me</label>
+                    <a href="#" class="forgotBtn">Forgot Password</a>
+                </div>
+                <div class="rowBtn">
+                	<input value="&nbsp;" type="submit">
+                    <div id="loginBtn">
+                        <a class="loginFacebook" href="#">&nbsp;</a>
+                        <a class="loginTwitter" href="#">&nbsp;</a>
+                        <a class="loginGplus" href="#">&nbsp;</a>
+                    </div><!-- end #loginBtn -->
+                </div>
+            </form>
+        </div>
+    </div><!-- end .popupMessage -->
+</div><!-- end .popup -->
+<div id="body">
+    <div id="headContainer">
+    <div class="" id="head">
+        <div id="top">
+            <a id="logo" href="http://localhost/axishtml/index.php">&nbsp;</a>
+            <ul id="topNav">
+                <li><a href="http://localhost/axishtml/index.php?menu=produk-kartu">Kartu Axis</a></li>
+                <li><a href="http://localhost/axishtml/index.php?menu=produk-internet">Internet</a></li>
+                <li><a href="http://localhost/axishtml/index.php?menu=coverage">Jangkauan</a></li>
+                <li><a href="http://rbt.axisworld.co.id/" target="_blank">AXIS Store</a></li>
+                <li><a href="http://localhost/axishtml/index.php?menu=isi-ulang">Isi Ulang</a></li>
+                <li><a href="http://localhost/axishtml/index.php?menu=customer-care">ASK AXIS</a></li>
+            </ul><!-- end #topNav -->
+                        <div id="loginBox">
+            	<div class="thumbSmallUser"><a href="#"><img src="index.php_files/1_003.jpg"></a></div>
+                <span class="user-info">Hi, Asep Darusman - 0838123555</span>
+                <a href="#" class="inboxBtn">Inbox (3)</a>
+              	<a href="#" class="logout">Logout</a>
+            </div><!-- end #loginBox -->
+		               <a class="flagen" href="#">EN</a>
+           <a class="flagid" href="#">ID</a>
+        </div><!-- end #top -->
+        <div id="navigation">
+            <div class="wrapper">
+                <ul id="nav">
+                    <li><a href="http://localhost/axishtml/index.php?menu=kenapa-axis">Pakai AXIS</a></li>
+                    <li><a href="http://localhost/axishtml/index.php?menu=produk" class="submenu">Terbaik Dari AXIS</a></li>
+                    <li><a href="http://localhost/axishtml/index.php?menu=lagi-in">Lagi Trend</a></li>
+                    <li><a href="http://localhost/axishtml/index.php?menu=axis-life">AXIS Land</a></li>
+                </ul><!-- end #nav -->
+                <div class="searchTop">
+                    <form class="" action="index.php?menu=search-result" name="gotourl">
+                    <input value="Bisa dibantu? Cari di sini..." onblur="if(this.value=='')this.value='Bisa dibantu? Cari di sini...';" onfocus="if(this.value=='Bisa dibantu? Cari di sini...')this.value='';" type="text">
+                    <input value="&nbsp;" onclick="url();" type="button">
+                    </form>
+                </div><!-- end .searchTop -->
+                <script>
+					var url;
+					function url(){
+					url = "index.php?menu=search-result";
+					location.href = url;
+					}
+				</script>
+            </div><!-- end .wrapper -->
+        </div><!-- end #navigation -->
+    </div><!-- end #head -->
+</div><!-- end #headContainer -->
+<div style="top: 0px; display: none; opacity: 1;" id="subMenu">
+    <div id="subContent" class="wrapper">
+        <ul>
+            <li><a href="http://localhost/axishtml/index.php?menu=produk-internet" class="subInternet">Internet</a></li>
+            <li><a href="http://localhost/axishtml/index.php?menu=produk-telepon" class="subTelepon">Telepon &amp; SMS</a></li>
+            <li><a href="http://localhost/axishtml/index.php?menu=produk-bundling" class="subBundling">Paket Bundling</a></li>
+            <li><a href="http://localhost/axishtml/index.php?menu=produk-kartu" class="subKartu">Kartu Axis</a></li>
+        </ul>
+        <div class="bannerNav" id="internetBanner">
+        	<p><img src="index.php_files/internet.png"></p>
+        </div>
+        <div class="bannerNav" id="teleponBanner">
+        	<p><img src="index.php_files/telpon_sms.png"></p>
+        </div>
+        <div class="bannerNav" id="bundlingBanner">
+        	<p><img src="index.php_files/bundling_device.png"></p>
+        </div>
+        <div class="bannerNav" id="kartuBanner">
+        	<p><img src="index.php_files/kartu_axis.png"></p>
+        </div>
+    </div><!-- end .wrapper -->
+</div>	<div id="breadcumb" class="wrapper">
+	<h1><a href="http://localhost/axishtml/index.php">Home</a> » <a href="http://localhost/axishtml/index.php?menu=axis-life">Axis Life</a> » <a href="http://localhost/axishtml/index.php?menu=axis-life-submit-article">Submit Article</a></h1>
+</div><!-- end #breadcumb -->
+<div id="container">
+    <div class="wrapper" id="axisLife">
+    	<div id="sidebar">
+   			
+<div id="profileBox">
+    <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="profileBoxTab">
+        <div class="headBox">
+            <ul role="tablist" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                <li aria-selected="true" aria-labelledby="ui-id-1" aria-controls="tab_profile" tabindex="0" role="tab" class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"><a id="ui-id-1" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tab_profile">my profile</a></li>
+                <li aria-selected="false" aria-labelledby="ui-id-2" aria-controls="tab_activity" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-2" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tab_activity">my activity</a></li>
+                <li aria-selected="false" aria-labelledby="ui-id-3" aria-controls="tab_setting" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-3" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tab_setting">setting</a></li>
+            </ul>
+        </div><!-- end .headBox -->
+        <div aria-hidden="false" aria-expanded="true" role="tabpanel" aria-labelledby="ui-id-1" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_profile">
+            <div class="thumbUser">
+                <a href="#" class="thumbUsers"><img src="index.php_files/1_004.jpg"></a>
+                <div class="rates">
+                    <img src="index.php_files/stars.png">
+                    <img src="index.php_files/stars.png">
+                    <img src="index.php_files/stars.png">
+                    <img src="index.php_files/stars.png">
+                    <img src="index.php_files/stars.png">
+                </div><!-- end .rates -->
+            </div><!-- end .thumbUser -->
+            <div class="userDetail">
+                <h4>Asep Darusman</h4>
+                <p>Kapten</p>
+                
+                <h4>Nomor Axis:</h4>
+                <p>0838123555</p>
+                
+                <h4>Sisa Pulsa:</h4>
+                <p>Rp 15.000</p>
+                
+                <h4>Masa Berlaku:</h4>
+                <p>12/12/2015</p>
+            </div><!-- end .userDetail -->
+            <div class="rowBtn">
+                <a class="submitArticleBTn" href="http://localhost/axishtml/index.php?menu=axis-life-submit-article">Submit Artikel</a>
+            </div><!-- end .rowBtn -->
+        </div><!-- end #tab_profile -->
+        <div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" aria-labelledby="ui-id-2" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_activity">
+            <div class="rowBtns">
+                <a class="myFavoriteBtn" href="http://localhost/axishtml/index.php?menu=my-favorite">My Favorite (23)</a>
+                <a class="myArticleBtn" href="http://localhost/axishtml/index.php?menu=my-article">My Artikel (15)</a>
+                <a class="komentarBtn" href="http://localhost/axishtml/index.php?menu=my-comment">Komentar (37)</a>
+            </div><!-- end .rowBtns -->
+        </div><!-- end #tab_activity -->
+        <div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" aria-labelledby="ui-id-3" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_setting">
+            <div class="rowBtns">
+                <a class="purpleBtn showPopup" href="#updateFoto">Update Foto</a>
+                <a class="purpleBtn showPopup" href="#customizeThemes">Customize Themes</a>
+                <a class="purpleBtn showPopup" href="#editUsername">Edit Username</a>
+                <a class="purpleBtn showPopup" href="#changePassword">Change Password</a>
+            </div><!-- end .rowBtns -->
+        </div><!-- end #tab_setting -->
+    </div><!-- end #profileBoxTab -->
+    <div class="shadow"></div>
+    <div class="splashBox2"></div>
+</div><!-- end #profileBox -->
+<div class="popup" id="updateFoto">
+    <div class="ui-overlay">
+        <div class="ui-widget-overlay"></div>
+    </div><!-- end .ui-overlay -->
+    <div class="popupContent">
+    	<div class="headPopup">
+           	<h3>Update Foto</h3>
+        </div>
+        <div class="entry">
+            <form method="post">
+            	<div id="previewFoto">
+                	<img src="index.php_files/2_002.jpg">
+                </div>
+                <div class="btnUpload">
+                	<input type="file">
+                </div>
+                <input name="upload_thumbnail" value="SAVE FOTO" type="submit">
+            </form>
+        </div><!-- end .entry -->
+    </div><!-- end .popupContent -->
+</div><!-- end .popup --><div class="popup" id="customizeThemes">
+    <div class="ui-overlay">
+        <div class="ui-widget-overlay"></div>
+    </div><!-- end .ui-overlay -->
+    <div class="popupContent largePopup">
+    	<div class="headPopup">
+           	<h3>Customize Themes</h3>
+        </div>
+        <div class="entry">
+            <form method="post">
+            	<div class="colThemes">
+                	<img src="index.php_files/default.jpg">
+                    <span class="radio"></span><input name="themes" class="styled" type="radio">
+                    <span class="currentThemes">Current Themes</span>
+                </div>
+            	<div class="colThemes">
+                	<img src="index.php_files/1_002.jpg">
+                    <span class="radio"></span><input name="themes" class="styled" type="radio">
+                </div>
+            	<div class="colThemes">
+                	<img src="index.php_files/2_003.jpg">
+                    <span class="radio"></span><input name="themes" class="styled" type="radio">
+                </div>
+            	<div class="colThemes">
+                	<img src="index.php_files/3.jpg">
+                    <span class="radio"></span><input name="themes" class="styled" type="radio">
+                </div>
+                <input name="upload_thumbnail" value="SAVE Themes" type="submit">
+            </form>
+        </div><!-- end .entry -->
+    </div><!-- end .popupContent -->
+</div><!-- end .popup --><div class="popup" id="editUsername">
+    <div class="ui-overlay">
+        <div class="ui-widget-overlay"></div>
+    </div><!-- end .ui-overlay -->
+    <div class="popupContent smallPopup">
+    	<div class="headPopup">
+           	<h3>Edit Username</h3>
+        </div>
+        <div class="entry">
+            <form method="post">
+                <label>Existing Username</label>
+                <input type="text">
+                <label>New Username</label>
+                <input type="text">
+                <input name="upload_thumbnail" value="SAVE Username" type="submit">
+            </form>
+        </div><!-- end .entry -->
+    </div><!-- end .popupContent -->
+</div><!-- end .popup --><div class="popup" id="changePassword">
+    <div class="ui-overlay">
+        <div class="ui-widget-overlay"></div>
+    </div><!-- end .ui-overlay -->
+    <div class="popupContent smallPopup">
+    	<div class="headPopup">
+           	<h3>Edit Password</h3>
+        </div>
+        <div class="entry">
+            <form method="post">
+                <label>Existing Password</label>
+                <input type="password">
+                <label>New Password</label>
+                <input type="password">
+                <input name="upload_thumbnail" value="SAVE PASSWORD" type="submit">
+            </form>
+        </div><!-- end .entry -->
+    </div><!-- end .popupContent -->
+</div><!-- end .popup -->   			 <div id="boxNetwork">
+    <div class="headBox">
+        <h1>Social network jadi makin seru!</h1>
+    </div><!-- end .headBox -->
+    <div class="ui-tabs ui-widget ui-widget-content ui-corner-all" id="boxNetworkTab">
+        <ul role="tablist" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+            <li aria-selected="true" aria-labelledby="ui-id-4" aria-controls="tab_twitter" tabindex="0" role="tab" class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"><a id="ui-id-4" tabindex="-1" role="presentation" href="#tab_twitter" class="icon_twitter ui-tabs-anchor">acitjazz</a></li>
+            <li aria-selected="false" aria-labelledby="ui-id-5" aria-controls="tab_facebook" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-5" tabindex="-1" role="presentation" href="#tab_facebook" class="icon_fb ui-tabs-anchor">Acit Jazz</a></li>
+            <li aria-selected="false" aria-labelledby="ui-id-6" aria-controls="tab_gplus" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-6" tabindex="-1" role="presentation" href="#tab_gplus" class="icon_gplus ui-tabs-anchor">ALorem ipsum dolor sit amet</a></li>
+        </ul>
+        <div aria-hidden="false" aria-expanded="true" role="tabpanel" aria-labelledby="ui-id-4" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_twitter">
+            <div class="row rowDefault">
+                <div class="smallThumb">
+                    <a href="#"><img src="index.php_files/1_003.jpg"></a>
+                </div><!-- end .smallThumb -->
+                <div class="entry">
+                    <h3>AXIS <a href="#">(@AXISgsm)</a></h3>
+                    <p>Kalau sekarang ini kita bahas soal CURHAT aja gmana nih? Asik ga tuh..</p>
+                    <p class="dates">03:03PM - 20/12/2012</p>
+                    <div class="rowBtns">
+                       <a class="reply" href="#">Reply</a>
+                       <a class="retweet" href="#">Retweet</a>
+                       <a class="favourite" href="#">Favourite</a>
+                    </div><!-- end .rowBtns -->
+                </div><!-- end .entry -->
+            </div><!-- end .rowDefault -->
+            <div style="overflow: hidden; padding: 0px; width: 320px;" class="scrollbar scroll-pane wide2 tall2">
+                <!-- end #socialConnect -->
+        	<div style="width: 320px; height: 220px;" class="jspContainer"><div style="padding: 0px; top: 0px; width: 320px;" class="jspPane"><div class="socialConnect">
+                    <a class="loginTwitter" href="#"><span></span>Twitter Login</a>
+                </div></div></div></div><!-- end .scrollbar -->
+        </div><!-- end #tab_twitter -->
+        <div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" aria-labelledby="ui-id-5" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_facebook">
+            <div class="row rowDefault">
+                <div class="smallThumb">
+                    <a href="#"><img src="index.php_files/1_003.jpg"></a>
+                </div><!-- end .smallThumb -->
+                <div class="entry">
+                    <h3>AXIS <a href="#">(@AXISgsm)</a></h3>
+                    <p>Kalau sekarang ini kita bahas soal CURHAT aja gmana nih? Asik ga tuh..</p>
+                    <p class="dates">03:03PM - 20/12/2012</p>
+                    <div class="rowBtns">
+                       <a class="reply" href="#">Reply</a>
+                       <a class="retweet" href="#">Retweet</a>
+                       <a class="favourite" href="#">Favourite</a>
+                    </div><!-- end .rowBtns -->
+                </div><!-- end .entry -->
+            </div><!-- end .rowDefault -->
+            <div style="overflow: hidden; padding: 0px; width: 320px;" class="scrollbar scroll-pane wide2 tall2">
+                <!-- end #socialConnect -->
+        	<div style="width: 320px; height: 220px;" class="jspContainer"><div style="padding: 0px; top: 0px; width: 320px;" class="jspPane"><div class="socialConnect">
+                    <a class="loginFacebook" href="#"><span></span>Facebook Login</a>
+                </div></div></div></div><!-- end .scrollbar -->
+        </div><!-- end #tab_facebook -->
+        <div aria-hidden="true" aria-expanded="false" style="display: none;" role="tabpanel" aria-labelledby="ui-id-6" class="entryBox ui-tabs-panel ui-widget-content ui-corner-bottom" id="tab_gplus">
+            <div class="row rowDefault">
+                <div class="smallThumb">
+                    <a href="#"><img src="index.php_files/1_003.jpg"></a>
+                </div><!-- end .smallThumb -->
+                <div class="entry">
+                    <h3>AXIS <a href="#">(@AXISgsm)</a></h3>
+                    <p>Kalau sekarang ini kita bahas soal CURHAT aja gmana nih? Asik ga tuh..</p>
+                    <p class="dates">03:03PM - 20/12/2012</p>
+                    <div class="rowBtns">
+                       <a class="reply" href="#">Reply</a>
+                       <a class="retweet" href="#">Retweet</a>
+                       <a class="favourite" href="#">Favourite</a>
+                    </div><!-- end .rowBtns -->
+                </div><!-- end .entry -->
+            </div><!-- end .rowDefault -->
+            <div style="overflow: hidden; padding: 0px; width: 320px;" class="scrollbar scroll-pane wide2 tall2">
+                <!-- end #socialConnect -->
+        	<div style="width: 320px; height: 220px;" class="jspContainer"><div style="padding: 0px; top: 0px; width: 320px;" class="jspPane"><div class="socialConnect">
+                    <a class="loginGplus" href="#"><span></span>Google+ Login</a>
+                </div></div></div></div><!-- end .scrollbar -->
+        </div><!-- end #tab_gplus -->
+    </div><!-- end #boxNetworkTab -->
+    <div class="shadow"></div>
+</div><!-- end #boxNetwork -->        </div><!-- end #sidebar -->
+        <div id="contents">
+        	<div class="theTitle">
+            	<h1 class="icon_artikel">Submit Artikel</h1>
+            </div><!-- end .theTitle -->
+            <div class="shadowCtop">
+            	<div class="shadowCbottom">
+                    <div class="entryDetail">
+                    	<form id="submitArticleForm">
+                        	<div class="row">
+                            	<label>Alamat Artikel</label>
+                                <input type="text">
+                            </div>
+                        	<div class="row">
+                            	<label>Kategori</label>
+                                <span id="select" class="select">Teknologi</span><select class="styled">
+                                    <option selected="selected">Teknologi</option>
+                                    <option>Film</option>
+                                    <option>Musik</option>
+                                    <option>Seleb</option>
+                                </select>
+                            </div>
+                        	<div class="row">
+                            	<label>Tag</label>
+                                <input type="text">
+                            </div>
+                        	<div class="row">
+                            	<label>Rating</label>
+                                <div class="rating" id="12_1"></div>
+                            </div>
+                        	<div class="row">
+                            	<label>Komentar</label>
+                                <textarea></textarea>
+                            </div>
+                        	<div class="rowShare">
+                            	<span class="shareIcon">Share</span>
+                                <span class="checkbox"></span><input class="styled" type="checkbox">
+                                <label>TWITTER</label>
+                                <span class="checkbox"></span><input class="styled" type="checkbox">
+                                <label>FACEBOOK</label>
+                                <span class="checkbox"></span><input class="styled" type="checkbox">
+                                <label>GOOGLE +</label>
+                            </div>
+                            <div class="rowSubmit">
+                                <span class="checkbox"></span><input class="styled" type="checkbox">
+                            	<label>Saya setuju dengan <a href="#">syarat &amp; ketentuan</a></label>
+                                <input value="SUBMIT" type="submit">
+                            </div>
+                        </form>
+                    </div><!-- end .entryDetail -->
+                </div><!-- end .shadowCbottom -->
+            </div><!-- end .shadowCtop -->
+        </div><!-- end #contents -->
+    </div><!-- end #axisLife -->
+    <div class="widget-axisLife">
+    
+<div id="bannerPromo">
+    <div class="wrapper">
+        <div class=" jcarousel-skin-tango"><div style="position: relative; display: block;" class="jcarousel-container jcarousel-container-horizontal"><div style="position: relative;" class="jcarousel-clip jcarousel-clip-horizontal"><ul style="overflow: hidden; position: relative; top: 0px; margin: 0px; padding: 0px; left: 0px; width: 2020px;" id="bannerCarousel" class="jcarousel-list jcarousel-list-horizontal">
+            <li jcarouselindex="1" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/1.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+            <li jcarouselindex="2" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-2 jcarousel-item-2-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/2.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+            <li jcarouselindex="3" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-3 jcarousel-item-3-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/3_002.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+            <li jcarouselindex="4" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-4 jcarousel-item-4-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/1.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+            <li jcarouselindex="5" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-5 jcarousel-item-5-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/2.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+            <li jcarouselindex="6" style="float: left; list-style: none outside none;" class="jcarousel-item jcarousel-item-horizontal jcarousel-item-6 jcarousel-item-6-horizontal">
+                <div class="bannerThumb">
+                    <a href="http://localhost/axishtml/index.php?menu=promo-detail"><img src="index.php_files/3_002.jpg"></a>
+                </div>
+                <div class="shadow"></div>
+            </li>
+        </ul></div><div disabled="disabled" style="display: block;" class="jcarousel-prev jcarousel-prev-horizontal jcarousel-prev-disabled jcarousel-prev-disabled-horizontal"></div><div style="display: block;" class="jcarousel-next jcarousel-next-horizontal"></div></div></div><!-- end #bannerCarousel -->
+    </div><!-- end .wrapper -->
+</div><!-- end #bannerPromo -->    </div><!-- end .widget-whyAxis -->
+</div><!-- end #container -->    
+<div id="ornamen"></div><!-- end #ornamen -->
+<div id="footer">
+    <div class="wrapper">
+        <div id="widgetFooter">
+            <div class="widgetFooter">
+                <h1 class="icon_volume"><a href="http://localhost/axishtml/corporate/index.php">KORPORAT</a></h1>
+                <div class="footThumb"><img src="index.php_files/f_tentangaxis.png"></div>
+                <div class="entryWidget">
+                    <ul>
+                        <li><a href="http://localhost/axishtml/corporate/index.php?menu=tentang-axis">Kenali AXIS</a></li>
+                        <li><a href="http://localhost/axishtml/corporate/index.php?menu=berita">Ruang Berita</a></li>
+                        <li><a href="http://localhost/axishtml/corporate/index.php?menu=seputar-perusahaan">Informasi Perusahaan</a></li>
+                        <li><a href="http://localhost/axishtml/corporate/index.php?menu=karir">Karir</a></li>
+                    </ul>
+                </div><!-- end .entryWidget -->
+            </div><!-- end .widgetFooter -->
+            <div class="widgetFooter">
+                <h1 class="icon_world"><a href="http://localhost/axishtml/index.php?menu=international">INTERNATIONAL</a></h1>
+                <div class="footThumb"><img src="index.php_files/f_international.png"></div>
+                <div class="entryWidget">
+                    <ul>
+                        <li><a href="http://localhost/axishtml/index.php?menu=international#tab-1">Datang ke Indonesia</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=international#tab-2">Pergi ke Luar Negeri</a></li>
+                    </ul>
+                </div><!-- end .entryWidget -->
+            </div><!-- end .widgetFooter -->
+            <div class="widgetFooter">
+                <h1 class="icon_toolbox"><a href="http://localhost/axishtml/index.php?menu=yang-asik">FITUR ASIK</a></h1>
+                <div class="footThumb"><img src="index.php_files/f_yangasik.png"></div>
+                <div class="entryWidget">
+                    <ul>
+                        <li><a href="http://localhost/axishtml/index.php?menu=yang-asik#tab-1">AXIS Box</a></li>
+                        <li><a href="http://net.axisworld.co.id/" target="_blank">Buku Telepon Online</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=yang-asik#tab-2">Layanan Suara</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=yang-asik#tab-3">Fitur SMS</a></li>
+                        <li><a href="http://www.duniaaxis.com/" target="_blank">Dunia Axis</a></li>
+                        <li><a href="http://sekolah.axisworld.co.id/" target="_blank">Komunitas Sekolah</a></li>
+                        <li><a href="http://net.axisworld.co.id/" target="_blank">AXIS NET</a></li>
+                    </ul>
+                </div><!-- end .entryWidget -->
+            </div><!-- end .widgetFooter -->
+            <div class="widgetFooter">
+                <h1 class="icon_love"><a href="#">YANG POPULER</a></h1>
+                <div class="footThumb"><img src="index.php_files/f_populer.png"></div>
+                <div class="entryWidget">
+                    <ul>
+                        <li><a href="http://localhost/axishtml/index.php?menu=axis-life">AXIS Land</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=lagi-in">Lagi Trend</a></li>
+                    </ul>
+                </div><!-- end .entryWidget -->
+            </div><!-- end .widgetFooter -->
+            <div class="widgetFooter last">
+                <h1 class="icon_tools"><a href="http://localhost/axishtml/index.php?menu=bantuan">BANTUAN</a></h1>
+                <div class="footThumb"><img src="index.php_files/f_bantuan.png"></div>
+                <div class="entryWidget">
+                    <ul>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-1">F.A.Q</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-2">Device Setting</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-3">Manual Setting</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-4">Quick Tips</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-5">Nomor Penting AXIS</a></li>
+                        <li><a href="http://localhost/axishtml/index.php?menu=bantuan#tab-6">Bantuan 123</a></li>
+                    </ul>
+                </div><!-- end .entryWidget -->
+            </div><!-- end .widgetFooter -->
+        </div><!-- end .widgetFooter -->
+        <div id="bottom">
+            <div class="navBot">
+                <ul>
+                    <li><a href="http://localhost/axishtml/index.php?menu=sitemap">Peta Situs</a></li>
+                    <li><a href="http://localhost/axishtml/index.php?menu=penyangkalan">Sanggahan</a></li>
+                    <li><a href="http://localhost/axishtml/index.php?menu=syarat-ketentuan">Syarat &amp; Ketentuan</a></li>
+                    <li><a>Copyright © 2008 - 2012 AXIS All Rights Reserved</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <span>Jangan lupa gabung juga di sini:</span>
+                <a href="http://www.facebook.com/AXISgsm" target="_blank" class="icon_fb">&nbsp;</a>
+                <a href="https://twitter.com/AXISgsm" target="_blank" class="icon_twit">&nbsp;</a>
+                <a href="https://plus.google.com/114517187362247493119/posts" target="_blank" class="icon_gplus">&nbsp;</a>
+                <a href="http://www.youtube.com/user/AXISGSM" target="_blank" class="icon_youtube">&nbsp;</a>
+            </div>
+        </div>
+    </div><!-- end .wrapper -->
+</div><!-- end #footer --></div><!-- end #body -->
+
+
+</body></html>
